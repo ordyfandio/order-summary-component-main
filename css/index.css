@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Fraunces', serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    border-bottom-left-radius: 0.8rem;
+    width: 700px;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+.img{
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.img_hero{
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    width: 400px;
+}
+.div_hero{
+    width: 57.2%;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    background-color: hsl(225, 100%, 98%);
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+.hero{
+    width: 100%;
+    padding: 60px 0;
+    border-bottom-left-radius: 0.8rem;
+}
+h1{
+    margin-top: -10px;
+    text-align: center;
+    margin-top: -15px;
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+}
+p{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    width: 82.4%;
+    margin-left: 25px;
+}
+.cost{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+.plan{
+    margin-left: 20px;
+}
+aside{
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+span{
+    color: hsl(224, 23%, 55%);
+}
+article{
+    margin-left: 90px;
+    text-decoration: underline;
+    text-decoration-color: hsl(245, 75%, 52%);
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+article:hover{
+    color: hsla(245, 75%, 52%, 0.737);
+    text-decoration-color:  hsl(225, 100%, 98%);
+}
+.div_btn_val{
+    text-align: center;
+    margin-top: 20px;
+}
+.div_btn_can{
+    margin-top: 20px;
+    text-align: center;
+}
+.btn_val{
+    padding: 12px;
+    width: 280px;
+    background-color: hsl(245, 75%, 52%);
+    cursor: pointer;
+    border: 0;
+    font-size: 0.8em;
+    color: hsl(225, 100%, 98%);
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.btn_val:hover{
+    background-color: hsla(245, 75%, 52%, 0.615);
+}
+.btn_can{
+    padding: 8px;
+    width: 200px;
+    border: 0;
+    background-color: hsl(225, 100%, 98%);
+    text-decoration-color: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn_can:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media screen and (max-width: 376px){
+    section{
+        position: relative;
+        width: 10%;
+        border-bottom-left-radius: 0.8rem;
+        width: 500px;
+        border-bottom-left-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+    }   
+    .img{
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .img_hero{
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        width: 320px;
+    }
+    .div_hero{
+        width: 64%;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        background-color: hsl(225, 100%, 98%);
+        border-bottom-left-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+    }
+    .hero{
+        width: 100%;
+        padding: 20px 0;
+        border-bottom-left-radius: 0.8rem;
+        margin-top: 7px;
+    }
+    h1{
+        margin-top: 10px;
+        text-align: center;
+        margin-top: -15px;
+        color: hsl(223, 47%, 23%);
+        font-weight: bolder;
+        font-size: 1.1rem;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: center;
+        width: 86%;
+        margin-left: 25px;
+        color: hsl(224, 23%, 55%);
+    }
+    .cost{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    aside{
+        font-size: 0.9em;
+        font-weight: bold;
+        color: hsl(223, 47%, 23%);
+        font-weight: bolder;
+    }
+    span{
+        color: hsl(224, 23%, 55%);
+    }
+    article{
+        margin-left: 50px;
+        text-decoration: underline;
+        text-decoration-color: hsl(245, 75%, 52%);
+        color: hsl(245, 75%, 52%);
+        font-weight: bold;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    .btn_val{
+        padding: 15px;
+        width: 280px;
+        background-color: hsl(245, 75%, 52%);
+        cursor: pointer;
+        border: 0;
+        font-size: 0.8em;
+        color: hsl(225, 100%, 98%);
+        border-bottom-left-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+}
